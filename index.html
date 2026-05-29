@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eterno Cearense do Grau - Homenagem</title>
+    <style>
+        :root {
+            --gold: #ffcc00;
+            --dark-bg: #050505;
+            --card-bg: rgba(22, 22, 22, 0.9);
+            --text-main: #ffffff;
+            --text-sub: #b3b3b3;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            background-image: radial-gradient(circle at 50% 10%, #1a1500 0%, var(--dark-bg) 70%);
+            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 50px 20px 20px;
+        }
+
+        .profile-container {
+            position: relative;
+            max-width: 320px;
+            margin: 0 auto 20px;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 2px solid var(--gold);
+            box-shadow: 0px 0px 25px rgba(255, 204, 0, 0.4);
+        }
+
+        .banner-foto {
+            width: 100%;
+            display: block;
+            height: auto;
+            background-color: #111;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 900;
+            margin: 15px 0 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--gold);
+        }
+
+        .subtitulo {
+            font-size: 1.1rem;
+            color: var(--text-sub);
+            margin: 5px 0 0;
+            font-weight: 300;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .historia-box {
+            background: var(--card-bg);
+            padding: 30px 20px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 204, 0, 0.15);
+            text-align: left;
+            box-shadow: 0px 15px 30px rgba(0,0,0,0.5);
+            margin-bottom: 30px;
+        }
+
+        .historia-box p {
+            font-size: 1.1rem;
+            color: #e0e0e0;
+            margin: 0 0 20px 0;
+        }
+
+        .historia-box p:last-child {
+            margin-bottom: 0;
+            color: var(--gold);
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .btn-video {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: var(--gold);
+            color: #000000;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 15px 30px;
+            border-radius: 50px;
+            margin: 25px 0;
+            box-shadow: 0px 5px 20px rgba(255, 204, 0, 0.4);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-video:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 25px rgba(255, 204, 0, 0.6);
+        }
+
+        .segunda-foto-container {
+            max-width: 100%;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 204, 0, 0.2);
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.6);
+            margin-top: 10px;
+        }
+
+        .segunda-foto {
+            width: 100%;
+            display: block;
+            height: auto;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 30px 20px;
+            color: #555;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="profile-container">
+            <img src="https://ibb.co" alt="Eterno Cearense do Grau" class="banner-foto">
+        </div>
+        <h1>Eterno Cearense do Grau</h1>
+        <p class="subtitulo">Motociclismo • Quebrada • Relíquia</p>
+    </header>
+
+    <div class="container">
+        <div class="historia-box">
+            <p>Quem conheceu o Ruan na internet via apenas os graus e a adrenalina nas pistas, mas nós conhecemos o amigo de verdade, o parceiro do dia a dia. Fica no peito aquela saudade foda de quando a gente se reunia para jogar bola, na resenha pura e verdadeira com os trutas.</p>
+            <p>No dia 15, sábado, o plano já estava todo traçado por nós: a gente ia fazer aquela cena monstra do lado do Bom, do jeito que ele mais curtia, dominando o asfalto e mostrando a arte do grau. Os planos foram interrompidos de forma precoce, mas as nossas memórias estão blindadas e ninguém apaga.</p>
+            <p>🕊️ SUA VAGA NA RESENHA NUNCA VAI SER PREENCHIDA 🕊️</p>
+        </div>
+
+        <a href="https://vimeo.com" target="_blank" class="btn-video">
+            <span>▶</span> Assistir Vídeo da Homenagem
+        </a>
+
+        <div class="segunda-foto-container">
+            <img src="https://i.ibb.co/s9YMSq3T/cearensdograu.webp" alt="Lembrança Cearense do Grau" class="segunda-foto">
+        </div>
+    </div>
+
+    <footer>
+        <p>HOMENAGEM DOS AMIGOS DE MARACANAÚ<br>DESCANSE EM PAZ, RUAN.</p>
+    </footer>
+
+</body>
+</html>
